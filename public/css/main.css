@@ -1,8 +1,6 @@
 /* VARIABLES */
 
 :root {
-	/* --font-default: Calibri, sans-serif; */
-
 	--color-green-dark: 72, 106, 82;
 	--color-green-medium: 102, 213, 153;
 	--color-green-light: 0, 0, 0; /* ?? */
@@ -27,7 +25,7 @@ body {
 
 hr {
 	margin: auto;
-	width: 90%;
+	width: 100%;
 	border: 0;
 	height: 1px;
 	background-image: linear-gradient(to right,
