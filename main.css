@@ -1,0 +1,153 @@
+/* VARIABLES */
+
+:root {
+	--font-default: Calibri, sans-serif;
+
+	--color-green-dark: 72, 106, 82;
+	--color-green-medium: 102, 213, 153;
+	--color-green-light: 0, 0, 0;
+	--color-green-lighter: 225, 234, 228;
+}
+
+
+/* RESET */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+/* BODY */
+
+body {
+	background: rgb(var(--color-green-lighter));
+	color: rgb(var(--color-green-dark));
+	font-family: var(--font-default);
+}
+
+
+/* HEADER */
+
+header {
+  text-align: center;
+	margin-top: 15px;
+}
+
+header > hr {
+	margin: auto;
+	width: 90%;
+	border: 0;
+	height: 1px;
+	background-image: linear-gradient(
+		to right,
+		rgba(var(--color-green-dark), 0),
+		rgba(var(--color-green-dark), 0.75),
+		rgba(var(--color-green-dark), 0));
+}
+
+header > p {
+	font-size: 36px;
+	margin: 0;
+	padding: 10px;
+}
+
+
+/* TABLE INSIDE HEADER */
+
+table {
+	text-align: center;
+}
+
+table#table1 {
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+}
+
+table, td {
+	text-align: center;
+/*	border:1px solid #330000; */
+}
+
+td {
+	text-align:center;
+	padding:4px;
+	font-family: calibri;
+    font-size: 42px;
+    background: rgb(var(--color-green-lighter));
+    color: rgb(var(--color-green-dark));
+}
+
+
+/* MAIN */
+
+main {
+	padding: 15px;
+  text-align: center;
+}
+
+main > img {
+	margin: 50px 0px;
+}
+
+main > h1 {
+	font-size: 3rem;
+	margin-bottom: 15px;
+}
+
+main > p {
+	font-size: 1.5rem;
+}
+
+
+#image_div img {
+  			/* Set rules to fill background
+			max-height: 200px;
+            min-height: 200px;
+			min-width: 70%;  */
+			/* Set up proportionate scaling */
+			width: 70%;
+			height: auto;
+			/* Set up positioning */
+			position: static;
+			top: 5;
+			left: 0;
+}
+
+@media screen and (max-width: 1024px){
+			#image_div img {
+				left: 50%;
+				margin-left: -512px; }
+}
+
+
+/* FOOTER */
+
+footer {
+  text-align: center;
+	margin-top: 50px;
+}
+
+footer > hr {
+	margin: auto;
+	width: 60%;
+	border: 0;
+	height: 1px;
+	background-image: linear-gradient(
+		to right,
+		rgba(var(--color-green-dark), 0),
+		rgba(var(--color-green-dark), 0.75),
+		rgba(var(--color-green-dark), 0));
+}
+
+footer > p {
+	font-size: 1.1rem;
+	margin: 0;
+	padding: 10px;
+}
+
+footer > p > small > em {
+	color: rgb(var(--color-green-medium));
+	font-style: normal;
+}
