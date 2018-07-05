@@ -23,7 +23,7 @@
 body {
 	background: rgb(var(--color-green-lighter));
 	color: rgb(var(--color-green-dark));
-	font-family: var(--font-default);
+	/* font-family: var(--font-default); */
 }
 
 
@@ -73,7 +73,7 @@ table, td {
 td {
 	text-align:center;
 	padding:4px;
-	font-family: calibri;
+	/* font-family: calibri; */
     font-size: 42px;
     background: rgb(var(--color-green-lighter));
     color: rgb(var(--color-green-dark));
