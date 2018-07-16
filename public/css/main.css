@@ -81,6 +81,21 @@ main > .container p {
 	text-align: left;
 }
 
+main form {
+	width: 100%;
+}
+
+main form > #name {
+	width:30%;
+}
+
+main form > * {
+	margin-bottom: 7px;
+}
+
+main form > #submit {
+	width: 15%;
+}
 
 /* FOOTER */
 
