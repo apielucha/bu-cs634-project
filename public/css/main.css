@@ -5,6 +5,7 @@
 	--color-green-medium: 102, 213, 153;
 	--color-green-light: 0, 0, 0; /* ?? */
 	--color-green-lighter: 225, 234, 228;
+	--color-tan-lighter: 252, 246, 237;
 }
 
 
@@ -19,7 +20,7 @@
 /* GLOBAL */
 
 body {
-	background: rgb(var(--color-green-lighter));
+	background: rgb(var(--color-tan-lighter));
 	color: rgb(var(--color-green-dark));
 }
 
@@ -80,6 +81,21 @@ main > .container p {
 	text-align: left;
 }
 
+main form {
+	width: 100%;
+}
+
+main form > #name {
+	width:30%;
+}
+
+main form > * {
+	margin-bottom: 7px;
+}
+
+main form > #submit {
+	width: 15%;
+}
 
 /* FOOTER */
 
