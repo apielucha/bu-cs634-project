@@ -97,6 +97,16 @@ main form > #submit {
 	width: 15%;
 }
 
+.products ul {
+	text-align: left;
+}
+
+.products ul em {
+	font-weight: bold;
+	text-decoration: underline;
+	font-style: normal;
+}
+
 /* FOOTER */
 
 footer {
